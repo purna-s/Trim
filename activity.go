@@ -30,11 +30,11 @@ func (a *Trim) Metadata() *activity.Metadata {
 // Eval implements activity.Activity.Eval
 func (a *Trim) Eval(ctx activity.Context) (done bool, err error) {
 	
-	
 		input := ctx.GetInput("InputString").(string)
 		
 			a := strings.TrimSpace(input)
-		ctx.SetOutput("Trim_String", a)
+			
+		ctx.SetOutput("TrimString", a)
 
 	activityLog.Debugf("Activity has trimmed the leading and trailing spaces Successfully")
 	fmt.Println("Activity has trimmed the leading and trailing spaces Successfully")
