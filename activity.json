@@ -1,0 +1,24 @@
+{
+  "name": "Trim",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/Trim",  
+  "title": "Trim",
+  "description": "Lists all the files in the directory",
+  "author": "Purna S <purna.sadanala@prowesssoft.com>",
+
+  "inputs":[
+    
+	{
+      "name": "InputString",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Trim_String",
+      "type": "string"
+    }
+  ]
+}
