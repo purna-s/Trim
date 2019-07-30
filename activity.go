@@ -31,7 +31,7 @@ func (a *Trim) Eval(ctx activity.Context) (done bool, err error) {
 	
 		input := ctx.GetInput("InputString").(string)
 		
-			a := strings.TrimSpace(input)
+			a = strings.TrimSpace(input)
 			
 		ctx.SetOutput("TrimString", a)
 
