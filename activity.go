@@ -3,7 +3,6 @@ package Trim
 import (
 
 	"fmt"
-	"log"
 	"strings"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
