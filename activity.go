@@ -31,9 +31,9 @@ func (a *Trim) Eval(ctx activity.Context) (done bool, err error) {
 	
 		input := ctx.GetInput("InputString").(string)
 		
-			a = strings.TrimSpace(input)
+			//a = strings.TrimSpace(input)
 			
-		ctx.SetOutput("TrimString", a)
+		ctx.SetOutput("TrimString", strings.TrimSpace(input))
 
 	activityLog.Debugf("Activity has trimmed the leading and trailing spaces Successfully")
 	fmt.Println("Activity has trimmed the leading and trailing spaces Successfully")
