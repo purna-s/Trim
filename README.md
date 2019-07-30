@@ -3,7 +3,7 @@ title: Trim
 ---
 
 # Trim
-This activity allows to list details of all the files in a folder
+This activity allows to all the leading and trailing spaces of a given string
 
 ## Installation
 ### Flogo CLI
