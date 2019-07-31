@@ -17,7 +17,7 @@
   ],
   "outputs": [
     {
-      "name": "Trim_String",
+      "name": "TrimString",
       "type": "string"
     }
   ]
