@@ -57,8 +57,8 @@ func TestEval(t *testing.T) {
 	act.Eval(tc)
 	//check output attr
 
-	Trim_String = tc.GetOutput("Trim_String")
-	assert.Equal(t, Trim_String, Trim_String)
+	TrimString = tc.GetOutput("TrimString")
+	assert.Equal(t, TrimString, TrimString)
 	
 	//assert.Equal(t, output, output)
 
